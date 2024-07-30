@@ -76,6 +76,12 @@ Welcome to the **Banking Application Backend**! This project provides a robust b
 - **GET /loans**: Retrieve loan data.
 - **GET /getBalance/:AccountID**: Retrieve the current balance for a specific account.
 
+### Technologies Used
+- **Node.js**: JavaScript runtime for building scalable network applications.
+- **Express.js**: Web application framework for Node.js.
+- **MySQL**: Relational database management system.
+- **CORS**: Middleware for enabling Cross-Origin Resource Sharing.
+- 
 ## Installation
 
 1. **Clone the repository:**
@@ -85,8 +91,4 @@ Welcome to the **Banking Application Backend**! This project provides a robust b
 
 
 
-### Technologies Used
-- **Node.js: JavaScript runtime for building scalable network applications.
-- **Express.js: Web application framework for Node.js.
-- **MySQL: Relational database management system.
-- **CORS: Middleware for enabling Cross-Origin Resource Sharing.
+
