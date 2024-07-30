@@ -81,7 +81,7 @@ Welcome to the **Banking Application Backend**! This project provides a robust b
 - **Express.js**: Web application framework for Node.js.
 - **MySQL**: Relational database management system.
 - **CORS**: Middleware for enabling Cross-Origin Resource Sharing.
-- 
+  
 ## Installation
 
 1. **Clone the repository:**
