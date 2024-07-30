@@ -1,89 +1,84 @@
 # Banking Application Backend
-Overview
-Welcome to the Banking Application Backend! This project provides a robust backend service for managing various banking operations using Express.js and MySQL. The backend APIs handle customers, employees, accounts, branches, transactions, and more, integrating seamlessly with the frontend of a banking application.
 
-Features
-Customer Management
+## Overview
 
-Add, retrieve, update, and delete customer records.
-Search for customers by name and view their associated accounts.
-Employee Management
+Welcome to the **Banking Application Backend**! This project provides a robust backend service for managing various banking operations using **Express.js** and **MySQL**. The backend APIs handle customers, employees, accounts, branches, transactions, and more, integrating seamlessly with the frontend of a banking application.
 
-Create and delete employee login records.
-View all employee records.
-Account Management
+## Features
 
-Create, retrieve, update, and delete account records.
-View accounts associated with specific customers.
-Branch Management
+### Customer Management
 
-Create and delete branch records.
-Retrieve all branch records.
-Transaction Management
+- Add, retrieve, update, and delete customer records.
+- Search for customers by name and view their associated accounts.
 
-Add new transactions.
-Retrieve transactions associated with specific customers.
-Additional Views
+### Employee Management
 
-Comprehensive view of customers and their accounts.
-Retrieve loan data and account balances using stored procedures.
-API Endpoints
-Customer
-POST /customer: Add a new customer.
-GET /customer: Retrieve all customers.
-GET /customer/:FirstName: Retrieve customer details by first name.
-PUT /customer/:username: Update customer details.
-DELETE /customer/:CustomerID: Delete a customer.
-Employee
-POST /employee: Add a new employee record.
-GET /employee: Retrieve all employees.
-DELETE /employee/:username: Delete an employee record.
-Account
-POST /accounts: Create a new account.
-GET /accounts: Retrieve all accounts.
-GET /accounts/:CustomerID: Retrieve accounts for a specific customer.
-DELETE /accounts/:AccountID: Delete an account.
-Branch
-POST /branch: Add a new branch record.
-DELETE /branch/:BranchID: Delete a branch record.
-GET /branch: Retrieve all branches.
-Transaction
-POST /transaction: Add a new transaction.
-GET /transaction/:CustomerID: Retrieve transactions for a specific customer.
-Additional Endpoints
-GET /CustomerAccountView: Retrieve a comprehensive view of customers and their accounts.
-GET /loans: Retrieve loan data.
-GET /getBalance/:AccountID: Retrieve the current balance for a specific account.
-Installation
-Clone the repository:
+- Create and delete employee login records.
+- View all employee records.
 
-bash
-Copy code
-git clone https://github.com/your-username/banking-application-backend.git
-Navigate to the project directory:
+### Account Management
 
-bash
-Copy code
-cd banking-application-backend
-Install dependencies:
+- Create, retrieve, update, and delete account records.
+- View accounts associated with specific customers.
 
-bash
-Copy code
-npm install
-Create a .env file for environment variables (e.g., database connection details).
+### Branch Management
 
-Start the server:
+- Create and delete branch records.
+- Retrieve all branch records.
 
-bash
-Copy code
-npm start
-Technologies Used
-Node.js: JavaScript runtime for building scalable network applications.
-Express.js: Web application framework for Node.js.
-MySQL: Relational database management system.
-CORS: Middleware for enabling Cross-Origin Resource Sharing.
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
+### Transaction Management
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Add new transactions.
+- Retrieve transactions associated with specific customers.
+
+### Additional Views
+
+- Comprehensive view of customers and their accounts.
+- Retrieve loan data and account balances using stored procedures.
+
+## API Endpoints
+
+### Customer
+
+- **POST /customer**: Add a new customer.
+- **GET /customer**: Retrieve all customers.
+- **GET /customer/:FirstName**: Retrieve customer details by first name.
+- **PUT /customer/:username**: Update customer details.
+- **DELETE /customer/:CustomerID**: Delete a customer.
+
+### Employee
+
+- **POST /employee**: Add a new employee record.
+- **GET /employee**: Retrieve all employees.
+- **DELETE /employee/:username**: Delete an employee record.
+
+### Account
+
+- **POST /accounts**: Create a new account.
+- **GET /accounts**: Retrieve all accounts.
+- **GET /accounts/:CustomerID**: Retrieve accounts for a specific customer.
+- **DELETE /accounts/:AccountID**: Delete an account.
+
+### Branch
+
+- **POST /branch**: Add a new branch record.
+- **DELETE /branch/:BranchID**: Delete a branch record.
+- **GET /branch**: Retrieve all branches.
+
+### Transaction
+
+- **POST /transaction**: Add a new transaction.
+- **GET /transaction/:CustomerID**: Retrieve transactions for a specific customer.
+
+### Additional Endpoints
+
+- **GET /CustomerAccountView**: Retrieve a comprehensive view of customers and their accounts.
+- **GET /loans**: Retrieve loan data.
+- **GET /getBalance/:AccountID**: Retrieve the current balance for a specific account.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/banking-application-backend.git
