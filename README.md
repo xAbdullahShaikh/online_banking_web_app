@@ -81,4 +81,12 @@ Welcome to the **Banking Application Backend**! This project provides a robust b
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/banking-application-backend.git
+    git clone https://github.com/xAbdullahShaikh/online_banking_web_app.git
+
+
+
+### Technologies Used
+- **Node.js: JavaScript runtime for building scalable network applications.
+- **Express.js: Web application framework for Node.js.
+- **MySQL: Relational database management system.
+- **CORS: Middleware for enabling Cross-Origin Resource Sharing.
