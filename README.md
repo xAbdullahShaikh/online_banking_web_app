@@ -92,6 +92,7 @@ Welcome to the **Banking Application Backend**! This project provides a robust b
 ![image](https://github.com/user-attachments/assets/21303a93-29e1-4bbe-bfab-149e3b553ed5)
 ![image](https://github.com/user-attachments/assets/7e91b302-0e6d-45ad-8c74-28847bea258e)
 ![image](https://github.com/user-attachments/assets/c51606bc-90b6-4f27-b107-bedcdd1ea571)
+![image](https://github.com/user-attachments/assets/a3786c42-0014-45bb-b06d-c2fac1a9d69f)
 
 
 
